@@ -19,7 +19,9 @@ export default function Info() {
                  <span className="pr-1"><FontAwesomeIcon icon={solid('envelope')} />  </span>   email
                     </button>
                 <button className="info--button__linkedIn">
-                <span className="pr-1"><FontAwesomeIcon icon={solid('user')} /></span>
+                <span className="pr-1">
+                    <FontAwesomeIcon icon={solid('user')} />
+                    </span>
                     linkedIn</button>
             </div>
         </div>
