@@ -5,9 +5,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(51, 51, 51);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.info--img-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.info--img {
+  width: 400px;
+}
+
+.info__name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 22px;
+  color: rgb(218, 218, 218);
+  margin: 0.5rem 0;
+  font-weight: 800;
+}
+
+.info__job-position {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+  color:rgb(192, 192, 192);
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.info__website {
+  margin:0;
+  color:rgb(172, 172, 172);
+  font-size: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+}
+
+.info {
+  width: 400px;
+}
+
+.info__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+}
+
+.info--button__email {
+  width: 6rem;
+  height: 1.6rem;
+  background-color: antiquewhite;
+  border-radius: 0.4rem;
+  border: none;
+  font-weight: 800;
+  letter-spacing: 0.04rem;
+  font-family: 'Lato';
+  font-size: 0.7rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.info--button__linkedIn {
+  cursor: pointer;
+  width: 6rem;
+  height: 1.6rem;
+  background-color: rgb(78, 130, 151);
+  border-radius: 0.4rem;
+  border: none;
+  font-weight: 700;
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  letter-spacing: 0.04rem;
+  font-family: 'Lato';
 }
