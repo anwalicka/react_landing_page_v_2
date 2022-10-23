@@ -15,13 +15,11 @@ export default function Info() {
             </div>
             <div className="info__buttons-container">
                 <button className="info--button__email">
-                 
-                    <FontAwesomeIcon icon="fa-brands fa-twitter" />
-                   
-                    email
+                               
+                 <span className="pr-1"><FontAwesomeIcon icon={solid('envelope')} />  </span>   email
                     </button>
                 <button className="info--button__linkedIn">
-                <FontAwesomeIcon icon={solid('user-secret')} />
+                <span className="pr-1"><FontAwesomeIcon icon={solid('user')} /></span>
                     linkedIn</button>
             </div>
         </div>

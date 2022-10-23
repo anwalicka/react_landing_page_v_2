@@ -91,3 +91,7 @@ code {
   letter-spacing: 0.04rem;
   font-family: 'Lato';
 }
+
+.pr-1 {
+  padding-right: 0.3rem;
+}
